@@ -1,0 +1,45 @@
+h1 {
+    text-align: center;
+    color: blue;
+    font-family: 'Lucida sans';
+}
+
+h1:hover {
+    color: red;
+}
+
+body {
+    background-color: darkgray;
+  
+}
+
+
+.card {
+    color: brown;
+    border-color: chartreuse;
+    width: 50%;
+    margin-left: 24.6%;
+    background: rgba(18, 18, 59, 0.979);
+}
+
+.btn-primary:hover {
+   color: red; 
+   background-color: bisque;
+}
+
+.container p:hover {
+    color: coral;
+    animation: mymove 5s infinite;
+}
+
+.pic img {
+    margin-left: 35%;
+    border-radius: 100%;
+    box-shadow: 3px 3px darkgoldenrod;
+}
+
+.myForm  .form-group {
+    width: 30%;
+}
+
+

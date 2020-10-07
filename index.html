@@ -57,25 +57,42 @@
 
         <div class="container">
             <form name="myForm">
-                <div class="form-group">
-                    <label for="year">Year</label>
-                    <input type="number" class="form-control" placeholder="year" id="year">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="year">Year</label>
+                            <input type="number" class="form-control" placeholder="year" id="year">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="Month">Month</label>
+                            <input type="number" class="form-control" placeholder="month" id="month">
+                        </div>
+                    </div>
+
                 </div>
                 <div class="form-group">
-                    <label for="Month">Month</label>
-                    <input type="number" class="form-control" placeholder="month" id="month">
-                </div>
-                <div class="form-group">
-                    <label for="Day">Day</label>
-                    <input type="number" class="form-control" placeholder="day" id="day">
-                </div>
-                <div class="radio">
-                    <label class="gender">
-                        <input class="radio" type="radio" name="gender" id="male">Male
-                        <input class="radio" type="radio" name="gender" id="female">Female
-                    </label>
-                </div>
-                <button type="button" class="btn-primary" onclick="myClick()">Submit</button>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label for="Day">Day</label>
+                            <input type="number" class="form-control" placeholder="day" id="day">
+                        </div>
+
+
+                        <div class="col-md-6">
+                            <div class="radio">
+                                <label class="gender">
+                                    <input class="radio" type="radio" name="gender" id="male">Male
+                                    <input class="radio" type="radio" name="gender" id="female">Female
+                                </label>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div>
+                        <button type="button" class="btn-primary" onclick="myFunction()">Submit</button>
+                    </div>
             </form>
         </div>
 
